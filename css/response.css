@@ -1,0 +1,24 @@
+@charset "euc-kr";
+/* CSS Document */
+
+@media screen and (min-width: 640px){
+	
+	/* ¸ÞÀÎ ¹ÝÀÀÇü Ã³¸® */
+	#bestphoto {width:50%; border-right:1px solid #cacaca;}
+	#recom {width:50%; border-right:1px solid #cacaca;}
+	#bannerBox {width:50%; border-right:1px solid #cacaca;}
+	#talkAndTalk {position:absolute; left:50%; top:124px; width:50%;}
+	#talkAndTalk #talk h2 {border-top:1px solid #fff;}
+	#board {position:absolute; left:50%; top:465px; width:50%;}
+	#talk .talk_tit {border-left:1px solid #cacaca;}
+	
+	/* Åå ¹ÝÀÀÇü Ã³¸® */ 
+	#talklist {padding-bottom:10px;}
+	#talklist li {width:50%; float:left; }
+	#talklist li a{margin-top:10px; margin-bottom:0px;}
+	#talklist li:nth-child(odd) a {margin-right:5px;}
+	#talklist li:nth-child(even) a {margin-left:5px;}
+	#talklist .writer {top:21px;}
+	#talklist .contents {top:41px;}
+	#talklist .info {top:20px;}
+}
